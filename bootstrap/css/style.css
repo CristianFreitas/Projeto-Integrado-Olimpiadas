@@ -1,0 +1,112 @@
+/*
+* style.css
+*/
+a{
+	text-decoration: none;
+}
+.body{
+	background-image: url("img/olimpiada3.png");
+}
+.cabecalho{
+
+	width:100%;
+	height: 2%;
+	background-color: #FFAA44;
+	text-align: center;
+}
+
+p.espaca{
+
+	margin-left: 5%;
+}
+
+
+.menu {
+
+	height: 90%;
+	width:  50%;
+	margin-left: 0.5%;	
+	margin-top: -7%;
+	border: solid;
+	border-radius: 5%;
+	border-color: #000;
+	background-color: #FFFFEF;
+	box-shadow:  5px 5px 5px #888888;
+}
+
+
+.conteudo{
+
+	height: 100%;
+	width: 106%;
+	margin-top: 1%;
+	margin-left: 3%;
+	border: solid;
+	border-radius: 5%;
+	border-color: #000;
+	font-weight: bold;
+	position: relative;
+}
+
+#site{
+	/* Definimos a largura da página */
+	width:100%;
+	/* Definirmos a altura da página*/
+	height:100%;
+	/* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+	/*top : posição de cima */
+	margin-top:0;
+	/* left: posição de esquerda*/
+	margin-left:auto;
+	/* bottom : posição de baixo */
+	margin-bottom:0;
+	/* right : posição de direita */
+	margin-right:auto;
+	/* Aqui definiremos a cor de fundo da página */
+
+}
+
+#cabecalho{
+	width:100%;
+	height: 2%;
+
+}
+
+#menu{
+	height: 20%;
+	width:  20%;
+	margin-left: 0.5%;	
+	margin-top: 5%;
+}
+
+.conteudo.fundo{
+	background-color: white;
+	opacity: 0.9;
+	
+}
+
+#conteudo{
+	margin-top: -8%;
+	margin-left: 12%;
+	margin-right: 4%;
+	width: 75%;
+	position: absolute;
+
+
+}
+.current:show{
+
+	font-family: Arial;
+
+}
+
+.description{
+	font-family: sans-serif;
+}
+
+
+.medalhas{
+	width: 30px;
+	height: 30px;
+	border: none;
+}
